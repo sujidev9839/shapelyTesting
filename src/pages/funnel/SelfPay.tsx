@@ -11,7 +11,7 @@ import { useFunnel } from "../../context/FunnelContext";
 
 const SelfPay = () => {
   const navigate = useNavigate();
-  const { handleProgressBar, nutritionGoals, setNutritionGoals,insuranceCheck } = useFunnel();
+  const { handleProgressBar, nutritionGoals,insuranceCheck } = useFunnel();
   console.log("insuranceCheck---   ",insuranceCheck?.output?.Acceptable_Insurance);
 
   const notOverweight =
