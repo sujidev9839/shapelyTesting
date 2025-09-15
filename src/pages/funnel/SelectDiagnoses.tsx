@@ -5,7 +5,7 @@ import { useFunnel } from "../../context/FunnelContext";
 import ButtonComponent from "../../components/Button";
 import { IoIosLock } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
-import { useEffect } from "react";
+//import { useEffect } from "react";
 
 type Diagnose = {
   label: string;

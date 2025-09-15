@@ -5,7 +5,7 @@ import { IoIosLock } from "react-icons/io";
 import { FaCheck } from "react-icons/fa6";
 import { useNavigate } from "react-router-dom";
 import { useFunnel } from "../../context/FunnelContext";
-import { useEffect } from "react";
+//import { useEffect } from "react";
 
 
 
